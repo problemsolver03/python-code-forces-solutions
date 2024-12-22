@@ -12,3 +12,5 @@ while decimal > 0: # exit condition to exit the loop
         decimal = (decimal // 2) # floor divison to update the new value to decimal    
 
 print("".join(map(str,binary[::-1]))) # converting to string to print output
+
+
