@@ -25,7 +25,7 @@ for i in range(len(powers_list)):
        binary.append(0) 
             
 print_binary  = ''.join(map(str, binary)) # converting to string to print output
-
+print(print_binary)
 # if len(print_binary) > 3:
 #   print(print_binary)
 # else:
