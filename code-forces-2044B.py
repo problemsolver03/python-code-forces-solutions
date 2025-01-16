@@ -32,3 +32,20 @@
 # pppwwwqqq
 # qpwwpqwpqpw
 # pqpqpqpq
+
+cases = int(input())
+
+for i in range(cases):
+  
+  string = input()
+  string_rev = string[::-1]
+  output =''
+  
+  for j in range(len(string_rev)):
+    if string_rev[j] == 'p':
+     output = output+'q'
+    elif string_rev[j] =='q':
+       output = output + 'p'
+    else:
+      output= output+string_rev[j]
+  print(output)  
